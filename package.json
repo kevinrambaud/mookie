@@ -28,6 +28,10 @@
     "type": "git",
     "url": "git@github.com:kevinrambaud/mookie.git"
   },
+  "bugs": {
+    "url": "https://github.com/kevinrambaud/mookie/issues"
+  },
+  "homepage": "https://github.com/kevinrambaud/mookie#readme",
   "engines": {
     "node": "6.10 || 8.10"
   },
