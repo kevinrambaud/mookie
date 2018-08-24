@@ -1,0 +1,36 @@
+{
+  "name": "mookie",
+  "version": "0.0.1",
+  "description": "Node.js middleware engine for AWS Lambda using async functions",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "coverage": "nyc --reporter=text --reporter=lcov npm test",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "sinon": "^6.1.5"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "middleware",
+    "async",
+    "await"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kevinrambaud/mookie.git"
+  },
+  "engines": {
+    "node": "6.10 || 8.10"
+  },
+  "author": "Kevin Rambaud",
+  "license": "MIT"
+}
