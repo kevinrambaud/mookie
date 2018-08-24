@@ -11,13 +11,13 @@ Node.js middleware engine for AWS Lambda using async functions.
 ## Installation
 
 ```bash
-npm install @mookie/core
+npm install mookie
 ```
 
 ## Usage
 
 ```javascript
-const mookie = require('@mookie/core')
+const mookie = require('mookie')
 
 function debug(v) {
   console.log(JSON.stringify(v, null, 2), '\n')
