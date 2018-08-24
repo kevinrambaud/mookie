@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/kevinrambaud/mookie#readme",
   "engines": {
-    "node": "6.10 || 8.10"
+    "node": ">=6.10 <=8.10"
   },
   "author": "Kevin Rambaud",
   "license": "MIT"
