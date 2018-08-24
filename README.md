@@ -1,7 +1,7 @@
 <p align="center">
   <img src="/mookie.png" height="300">
   <h1 align="center">
-    mookie
+    &nbsp;mookie
     <br>
   </h1>
 </p>
