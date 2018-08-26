@@ -3,6 +3,10 @@
   <h1 align="center">
     &nbsp;mookie
     <br>
+        <a href="https://circleci.com/gh/kevinrambaud/mookie/tree/master"><img alt="build-status" src="https://img.shields.io/circleci/project/github/kevinrambaud/mookie.svg?style=flat-square" /></a>
+    <a href="https://codecov.io/gh/kevinrambaud/mookie"><img alt="build-status" src="https://img.shields.io/codecov/c/github/kevinrambaud/mookie.svg?style=flat-square" /></a>
+    <a href="https://www.npmjs.com/package/mookie"><img alt="build-status" src="https://img.shields.io/npm/v/mookie.svg?style=flat-square" /></a>
+    <a href="https://www.npmjs.com/package/mookie"><img alt="build-status" src="https://img.shields.io/npm/dt/mookie.svg?style=flat-square" /></a>
   </h1>
 </p>
 
