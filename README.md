@@ -10,6 +10,8 @@ Node.js middleware engine for AWS Lambda using async functions.
 
 ## Installation
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kevinrambaud/mookie.svg)](https://greenkeeper.io/)
+
 ```bash
 npm install mookie
 ```
