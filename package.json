@@ -8,11 +8,12 @@
     "index.d.ts"
   ],
   "scripts": {
-    "coverage": "nyc --reporter=text --reporter=lcov npm test",
-    "test": "mocha"
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "test": "nyc --reporter=text --reporter=lcov mocha"
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "codecov": "^3.0.4",
     "mocha": "^5.2.0",
     "nyc": "^12.0.2",
     "sinon": "^6.1.5"
