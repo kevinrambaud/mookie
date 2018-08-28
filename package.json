@@ -1,6 +1,6 @@
 {
   "name": "mookie",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js middleware engine for AWS Lambda using async functions",
   "main": "index.js",
   "files": [
