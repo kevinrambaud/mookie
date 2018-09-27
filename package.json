@@ -1,6 +1,6 @@
 {
   "name": "mookie",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node.js middleware engine for AWS Lambda using async functions",
   "main": "index.js",
   "files": [
@@ -8,14 +8,13 @@
     "index.d.ts"
   ],
   "scripts": {
-    "precommit": "npm test",
     "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "test": "nyc --reporter=text --reporter=lcov mocha"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "codecov": "^3.0.4",
-    "husky": "^0.14.3",
+    "husky": "^1.0.0",
     "mocha": "^5.2.0",
     "nyc": "^13.0.1",
     "sinon": "^6.1.5"
@@ -39,5 +38,10 @@
     "node": ">=6.10 <=8.10"
   },
   "author": "Kevin Rambaud",
-  "license": "MIT"
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  }
 }
