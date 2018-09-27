@@ -8,7 +8,6 @@
     "index.d.ts"
   ],
   "scripts": {
-    "precommit": "npm test",
     "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "test": "nyc --reporter=text --reporter=lcov mocha"
   },
@@ -39,5 +38,10 @@
     "node": ">=6.10 <=8.10"
   },
   "author": "Kevin Rambaud",
-  "license": "MIT"
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  }
 }
